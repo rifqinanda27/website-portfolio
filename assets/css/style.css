@@ -1,0 +1,199 @@
+@font-face{
+	font-family: Poppins;
+	src: url(.../fonts/Poppins-Regular.ttf);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Poppins;
+	padding-top: 56px;
+	background-image: linear-gradient(to bottom right, #EDEDED, #DDDDDD);
+}
+
+
+/* Card Settings */
+
+.cardborder{
+	border-radius: 20px;
+}
+
+.cardborder1{
+	border-radius: 20px;
+	background-color: rgb(230, 230, 230);
+}
+
+.cardbg{
+	background-color: #474E68;
+}
+
+/* Navigation */
+
+.navigation-control{
+	color: #404258;
+	transition-duration: 0.5s;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.15em;	
+	display: inline-block;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.navigation-control:after{
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: rgb(17, 17, 17);
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.navigation-control:hover:after{
+	width: 100%; 
+	left: 0; 
+}
+
+/* Go to top button */
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #404258;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 10px;
+
+	transition: 0.5s;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.gotopbtn:hover{
+	background: white;
+	color: #404258;
+	transform: scale(1.1);
+}
+
+/* Button Settings */
+.button {
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.button1{
+	background-color: white;
+	color: #404258;
+	border: 2px solid #555555;
+}
+
+.button1:hover{
+	background-color: #404258;
+	color: white;
+	box-shadow:  0 8px 16px 0 rgba(138, 138, 138, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2{
+	background-color: #404258;
+	color: rgb(255, 255, 255);
+	border: 2px solid #555555;
+}
+
+.button2:hover{
+	background-color: #d8d8d8;
+	color: rgb(22, 22, 22);
+	box-shadow:  0 8px 16px 0 rgba(138, 138, 138, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Font Settings */
+
+.headingFont{
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.headingFont2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descFont{
+	font-size: larger;
+}
+
+.font-color1{
+	color: #6B728E;
+}
+
+@media only screen and (max-width: 768px) {
+	.headingFont{
+		font-size: 50px;
+	}
+  }
+
+/* Margin Settings */
+
+.headMargin{
+	margin-top: 140px;
+	padding-bottom: 150px;
+}
+
+/* Padding Settings */
+.padding-custom-1{
+	padding-top: 50px;
+	padding-bottom: 395px;
+}
+
+/* Image Card Settings */
+.image-card{
+	width: 100%;
+	transition: 0.5s;
+}
+
+.image-card:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+/* Logo Card */
+
+.logo-card{
+	width: 75px;
+	height: 75px;
+}
+
+/* Background */
+.background1{
+	background-color: #50577A;
+}
+
+.background2{
+	background-color: #404258;
+}
