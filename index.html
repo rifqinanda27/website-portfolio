@@ -245,18 +245,18 @@
         <h1 class="text-center fw-bold"><i class="fa-solid fa-phone"></i> Contact</h1>
       </div>
       <div class="py-4 px-4 px-lg-0">
-        <form action="">
+        <form action="https://formspree.io/f/xkneddqn" method="POST">
           <div class="form-label shadow">
-            <input type="text" class="form-control" placeholder=" Enter your name . . .">
+            <input type="text" name="name" class="form-control" placeholder=" Enter your name . . ." required>
           </div>
           <div class="form-label shadow">
-            <input type="text" class="form-control" placeholder="Enter your email . . .">
+            <input type="email" name="email" class="form-control" placeholder="Enter your email . . ." required>
           </div>
           <div class="form-label shadow">
-            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Enter your message . . ."></textarea>
+            <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Enter your message . . ."></textarea>
           </div>
           <div class="text-center text-lg-start">
-            <button class="button button2">Submit</button>
+            <button class="button button2" type="submit">Submit</button>
           </div>
         </form>
       </div>
